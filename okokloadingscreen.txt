@@ -1,0 +1,88 @@
+Config = {};
+
+Config.Locale = 'en'; // en / pt / es / fr / de / nl / sv
+
+Config.MusicVolume = 0.30 // 0.0 - 1.0
+
+Config.BackgroundVideo = true // true it will use a video (img/video/.WEBM), false it will use a carousel of images (img/slide/.JPG)
+
+Config.UseYoutubeVideo = false // true it will use a youtube video, false it will use a local video (img/video/.WEBM)
+
+Config.YoutubeVideoID = 'DHZrx2xxPnc' // Youtube video ID (The ID is the last part of the URL after 'watch?v=')
+
+Config.UpdateCarouselTime = 8; // Time in seconds
+
+Config.Color = '#1f5eff' // Color of the UI
+
+Config.SocialMedia = {
+    tiktok: {
+        link: "https://www.tiktok.com/@dllrp_official",
+    },
+    youtube: {
+        link: "https://www.youtube.com/@NGCRP",
+    },
+    discord: {
+        link: "https://discord.gg/KX77HTeGRh",
+    },
+};
+
+Config.StaffMembers = {
+    1: {
+        name: "Deon James", // Staff member name
+        rank: "Owner", // Staff member rank (administrator / moderator and can't be changed)
+        image: "", // Staff member image (img/avatars/image_name.jpg) or a link ( needs to start with https://)
+    },
+    2: {
+        name: "ko93xx", // Staff member name
+        rank: "administrator", // Staff member rank (administrator / moderator and can't be changed)
+        image: "", // Staff member image (img/avatars/image_name.jpg) or a link ( needs to start with https://)
+    },
+}
+
+Config.UpdateList = {
+    1: {
+        date: 'March 26, 2024',
+        title: 'Update 1.1',
+        subtitle: 'Our First Update Is Finally Here!',
+        description: 'We are thrilled to announce our first update are new mlos, and vehicles!',
+        image: 'patchnotes.jpg',
+        updateList: {
+            1: {
+                description: 'New Maps: Explore the new Metropolitan Police Station, and our new areas around the city!',
+            },
+            2: {
+                description: 'New Cars: Experience the thrill of driving our newly added cars, each with unique designs and features.',
+            },
+        }
+    },
+  //  2: {
+ //       date: 'December 21, 2023',
+  //      title: 'Grand Racing Tournament',
+  //      subtitle: 'Rev up your engines for the ultimate race!',
+  //      description: 'Get ready for the thrill of the Grand Racing Tournament! Compete against the best racers, unlock new tracks, and claim the title of the fastest driver!',
+  //      image: 'racing.jpg',
+  //      updateList: {
+  //          1: {
+  //              description: 'Challenging Tracks: Experience adrenaline-pumping races on brand new and challenging racetracks.',
+  //          },
+  ///          2: {
+  //              description: 'High-Speed Vehicles: Unlock and race with high-performance vehicles, each with its unique characteristics.',
+  //          },
+ //           3: {
+ //          },
+  //      }
+  //  }, 
+}
+
+Config.Music = {
+    1: {
+        filename: 'MazzaL20.mp3',
+        title: 'Plugged In',
+        artist: 'Mazza L20 x Fumez The Engineer'
+       },
+    2: {
+        filename: 'NPKSneakz.mp3',
+        title: 'Plugged Inx',
+        artist: '#NPK Sneakz x Fumez The Engineer'
+       },
+};
